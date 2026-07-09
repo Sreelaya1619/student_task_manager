@@ -31,7 +31,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
 
             <div>
               <h1 className="text-white font-bold text-lg">
-                  LAYA STUDENT TASK MANAGER
+                  SREELAYA STUDENT TASK MANAGER
               </h1>
               <p className="text-xs text-gray-300">
                 Stay Organized
