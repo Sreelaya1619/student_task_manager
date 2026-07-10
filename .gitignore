@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Database
+backend/tasks.db
+
+# Logs
+npm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Build files
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+frontend/.vite/
+
+# VS Code
+.vscode/

@@ -1,9 +1,10 @@
-FROM node:26-alpine
+FROM node:22-bookworm
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm ci --omit=dev
+
+RUN npm install
 
 COPY . .
 
