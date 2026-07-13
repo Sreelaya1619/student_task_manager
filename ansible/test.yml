@@ -1,0 +1,13 @@
+---
+- name: Test Ansible Setup
+  hosts: local
+  gather_facts: false
+
+  tasks:
+
+    - name: Check server connection
+      ping:
+
+    - name: Print message
+      debug:
+        msg: "Ansible is working successfully!"
